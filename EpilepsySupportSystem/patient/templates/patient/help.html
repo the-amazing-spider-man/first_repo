@@ -1,0 +1,155 @@
+{% load static  %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="asset/mediaelementplayer.min.css" rel="stylesheet">
+
+    <title>Help</title>
+  </head>
+  <body>
+
+     <!--Photo-->
+      <div class="container mt--1 mb-0">
+        <div class="row">
+          <div class="col-md-0">
+
+              <img src="{% static 'patient/2.jpg'    %}">
+
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+     <br>
+     <br>
+
+
+     <!--Ambulance  Info-->
+     <h2> Ambulance contact number(IN CASE OF EMERGENCY) </h2>
+     <table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Sr No</th>
+      <th scope="col">Name</th>
+      <th scope="col">Contact Number </th>
+      <th scope="col">Area </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Vijayalaxmi Ambulance</td>
+      <td>95724869</td>
+      <td>KEM Hospital</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Life Care Cardiac Ambulance Service</td>
+      <td>98475692938</td>
+      <td>Kulkarni hospital and diagnostic centre</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Laxmi Ambulance Service </td>
+      <td>8834839484</td>
+      <td>Jehangir Hospital</td>
+    </tr>
+  <tr>
+      <th scope="row">3</th>
+      <td>ShivLaxmi Ambulance Service </td>
+      <td>8834839484</td>
+      <td>Jehangir Hospital</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+     <!-- Brother Sister Info-->
+     <h2> Brother's and Sister's contact number(IN CASE OF EMERGENCY) </h2>
+     <table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Sr No</th>
+      <th scope="col">Name</th>
+      <th scope="col">Contact Number </th>
+      <th scope="col">Hospital in which they work</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Yogesh Kertvad </td>
+      <td>957248692</td>
+      <td>KEM Hospital</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>98475692938</td>
+      <td>Kulkarni hospital and diagnostic centre</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>8834839484</td>
+      <td>Jehangir Hospital</td>
+    </tr>
+  </tbody>
+</table>
+
+     <!-- Hospitels -->
+
+     <h2> Some Of The best Epilepsy Hospitals In Our City </h2>
+     <table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Sr No</th>
+      <th scope="col">Hospital Name</th>
+      <th scope="col">Contact Number </th>
+      <th scope="col">Address </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>KEM Hospital</td>
+      <td>957248692</td>
+      <td>32, Sasoon Road Opposite Railway Station, Central Excise Colony, Sangamvadi, Pune, Maharashtra 411001</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Kulkarni hospital and diagnostic centre</td>
+      <td>98475692938</td>
+      <td>489, Sardar Mudaliar Road, Rasta Peth, Pune, Maharashtra 411011</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Jehangir Hospital</td>
+      <td>8834839484</td>
+      <td>Plot No. 30-C, Erandvane, Karve Rd, Deccan Gymkhana, Pune, Maharashtra 411004</td>
+    </tr>
+  <tr>
+      <th scope="row">3</th>
+      <td>Joshi Hospital</td>
+      <td>9864580981</td>
+      <td>778, Kamala Nehru Park Rd, Opposite Kamala Nehru Park, Shivajinagar, Pune, Maharashtra 411004</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+     <form action = 'http://127.0.0.1:8000/patientName' >
+      <button type="submit" class="btn btn-success">HOME</button>
+    </form>
+
+  </body>
+</html>

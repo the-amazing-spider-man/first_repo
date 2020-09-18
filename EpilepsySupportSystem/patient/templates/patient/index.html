@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Epilepsy Support System Emergensy Service</title>
+  </head>
+
+
+  <body>
+
+
+    <form action = 'http://127.0.0.1:8000/patientName/medician/' method="get">
+      <div class="form-group">
+        <label for="Pname"><h2 class="mt-4">Enter Patient's Name </h2></label>
+        <input name="Pname" type="Pname" class="form-control"  id="Pname" aria-describedby="Pname">
+        <small id="emailHelp" class="form-text text-muted">Enter the name exactly as on hospitals record.</small>
+      </div>
+
+      <button type="submit" class="btn btn-info">Submit</button>
+    </form>
+
+
+    <br>
+    <br>
+
+    <div class="container">
+      <div class="row">
+      <form action = 'http://127.0.0.1:8000/patientName/help/' method="get">
+        <button type="submit" class="btn btn-outline-success">HELP</button>
+      </form>
+
+      </div>
+    </div>
+
+  </body>
+
+
+</html>
